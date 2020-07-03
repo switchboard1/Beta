@@ -162,7 +162,7 @@
       <h2
         class="mt-8 mb-4"
         :class="{'px-8 headline font-weight-bold': $vuetify.breakpoint.smAndDown, 'px-12':$vuetify.breakpoint.mdAndUp}"
-      >Beer List</h2>
+      >Most for your Money</h2>
       <v-row
         class="mb-12 mx-0"
         no-gutters
