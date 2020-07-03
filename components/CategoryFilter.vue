@@ -5,8 +5,8 @@
         <v-container class="pt-12 pb-8">
           <v-row justify="center">
             <v-col cols="auto" class="text-center">
-              <h1 class="display-2 font-weight-bold grey--text text--darken-4">Welcome to Beer List!</h1>
-              <h1 class="title font-weight-light">Discover new drinks and new places near you.</h1>
+              <h1 class="display-2 font-weight-bold grey--text text--darken-4">Welcome to Most for your Money!</h1>
+              <h1 class="title font-weight-light">A new way to find what you need.</h1>
             </v-col>
           </v-row>
         </v-container>
