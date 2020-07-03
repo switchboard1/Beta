@@ -8,7 +8,7 @@
               <v-avatar size="36" color="grey lighten-1">
                 <span class="font-weight-bold grey--text text--darken-4">B</span>
               </v-avatar>
-              <span class="ml-4">Beer List</span>
+              <span class="ml-4">Most for your Money</span>
             </v-row>
           </v-col>
           <v-col cols="auto" style="padding: 0;">
