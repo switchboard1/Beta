@@ -50,10 +50,9 @@
                 <h1
                   class="display-2 font-weight-bold grey--text text--darken-4 px-4 mb-4"
                   :class="{ 'display-1 mb-2': $vuetify.breakpoint.smAndDown }"
-                >Welcome to Beer List!</h1>
+                >Welcome to Most for your Money!</h1>
                 <h1 class="title font-weight-light px-4">
-                  You can find the breweries you want to follow and they will
-                  appear on your feed.
+                  A new way to shop for what you need.
                 </h1>
                 <v-btn color="pink" class="white--text mt-8" @click="e1 = 2">Next</v-btn>
               </v-row>
@@ -64,7 +63,7 @@
                 <h1
                   class="display-1 font-weight-bold grey--text text--darken-4 px-4 mb-4"
                   :class="{ 'mb-2': $vuetify.breakpoint.smAndDown }"
-                >Select the states you want to view.</h1>
+                >Select the categories you're interested in.</h1>
                 <State :states="states" :addState="addState" :removeState="removeState" />
                 <v-row justify="space-between" style="width: 50%">
                   <v-btn
@@ -88,7 +87,7 @@
                 <h1
                   class="display-1 font-weight-bold grey--text text--darken-4 px-4 mb-4"
                   :class="{ 'mb-2': $vuetify.breakpoint.smAndDown }"
-                >Most popular brewery in your selected states</h1>
+                >Most popular users in the categories you selected</h1>
                 <v-row style="width: 100%; padding: 1rem;" justify="center">
                   <template v-if="users.length > 3">
                     <v-col
