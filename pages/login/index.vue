@@ -57,7 +57,7 @@
 
         <client-only>
           <p class="mt-4 body-2 grey--text text--darken-3">
-            New to Beer List? You can sign up
+            New to Most for your Money? You can sign up
             <!-- <a href="/signup" class="pink--text font-weight-black">here.</a> -->
             <nuxt-link to="/signup" class="pink--text font-weight-black">here</nuxt-link>
           </p>
